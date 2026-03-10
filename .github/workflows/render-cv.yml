@@ -16,6 +16,8 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
+    env:
+      GA_ID: ${{ secrets.GA_MEASUREMENT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -36,9 +38,7 @@ jobs:
           rendercv render cv-yamil-ayma-rendercv.yaml
 
       - name: Inject Google Analytics
-        if: secrets.GA_MEASUREMENT_ID != ''
-        env:
-          GA_ID: ${{ secrets.GA_MEASUREMENT_ID }}
+        if: env.GA_ID != ''
         run: |
           GA_SCRIPT="<!-- Google tag (gtag.js) --><script async src=\"https://www.googletagmanager.com/gtag/js?id=$GA_ID\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '$GA_ID');</script>"
           sed -i "s|<head>|<head>$GA_SCRIPT|g" rendercv_output/Anthony_Yamil_Ayma_Leon_CV.html
