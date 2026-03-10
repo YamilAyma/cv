@@ -40,8 +40,15 @@ jobs:
       - name: Inject Google Analytics
         if: env.GA_ID != ''
         run: |
-          GA_SCRIPT="<!-- Google tag (gtag.js) --><script async src=\"https://www.googletagmanager.com/gtag/js?id=$GA_ID\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '$GA_ID');</script>"
-          sed -i "s|<head>|<head>$GA_SCRIPT|g" rendercv_output/Anthony_Yamil_Ayma_Leon_CV.html
+          python3 -c "
+          import os
+          ga_id = os.environ['GA_ID']
+          script = f'<!-- Google tag (gtag.js) --><script async src=\"https://www.googletagmanager.com/gtag/js?id={ga_id}\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){{dataLayer.push(arguments);}}gtag(\'js\', new Date());gtag(\'config\', \'{ga_id}\');</script>'
+          with open('rendercv_output/Anthony_Yamil_Ayma_Leon_CV.html', 'r') as f:
+              content = f.read()
+          with open('rendercv_output/Anthony_Yamil_Ayma_Leon_CV.html', 'w') as f:
+              f.write(content.replace('<head>', '<head>' + script))
+          "
 
       - name: Prepare HTML for Pages
         run: |
