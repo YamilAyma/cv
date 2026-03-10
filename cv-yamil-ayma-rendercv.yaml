@@ -1,0 +1,96 @@
+cv:
+  name: Anthony Yamil Ayma Leon
+  headline: Técnico en Ingeniería de Software con IA
+  location: Independencia, Lima, Perú
+  email: contacto.yamilayma@gmail.com
+  phone: "+51 940 750 073"
+  social_networks:
+    - network: GitHub
+      username: YamilAyma
+    - network: LinkedIn
+      username: yamilayma
+  sections:
+    resumen:
+      - Soy desarrollador de software especializado en la creación de soluciones a medida y automatización de procesos para PyMEs porque sé que el software simplifica lo complejo y acelera la entrega. Me encanta participar en proyectos, afrontar desafíos y promover un trabajo colaborativo creando herramientas como flujos de trabajo para mejorar los procesos existentes. En otros ámbitos, gestiono una comunidad de desarrolladores y realizo proyectos que buscan dar impacto o apoyo. 
+    educación:
+      - institution: SENATI
+        area: Ingeniería de Software con IA
+        degree: Técnico
+        start_date: 2020-02
+        end_date: 2025-12
+    experiencia:
+      - company: Redytec
+        position: Desarrollador de Sistemas de Escritorio
+        start_date: 2025-03
+        end_date: 2025-12
+        highlights:
+          - Desarrollo de aplicaciones de escritorio para sector farmacéutico.
+          - Desarrollo de chatbots con tecnologías web fullstack e integración de servicios externos de IA Generativa.
+          - Presentación de avances de proyecto a nivel funcional al cliente.
+      - company: Heladería ConGusto
+        position: Desarrollador de Aplicaciones
+        start_date: 2024-08
+        end_date: 2024-12
+        highlights:
+          - Desarrollo de páginas web
+          - Desarrollo de aplicaciones internas de empresa
+    proyectos:
+      - name: "Comunidad de Desarrolladores | Una Comunidad de Python"
+        date: "presente"
+        highlights:
+          - Gestión y liderazgo de una comunidad enfocada en el aprendizaje colaborativo y apoyo mutuo.
+      - name: "Automatización de Redes Sociales"
+        date: "2025"
+        highlights:
+          - Creación de flujos de trabajo para la generación y programación de contenido automatizado.
+      - name: "Sitio Web Personal"
+        date: "2025"
+        highlights:
+          - Desarrollo de portafolio y blog personal para documentar proyectos y tutoriales técnicos.
+      - name: "Canal de YouTube - ShuperPython"
+        date: "2024"
+        highlights:
+          - Creación de contenido educativo sobre Python, automatización y desarrollo de software.
+    certificaciones:
+      - bullet: "AWS Academy Graduate - Cloud Operations - Amazon Web Services (AWS)"
+      - bullet: "AWS Academy Graduate - Cloud Foundations - Amazon Web Services (AWS)"
+      - bullet: "Desarrollo Front-End (Básico) - Ministerio de Trabajo y Promoción del Empleo"
+      - bullet: "Generative AI for Business Leaders - LinkedIn Learning"
+      - bullet: "Artificial Intelligence Fundamentals - IBM"
+      - bullet: "Artificial Intelligence with Machine Learning - Oracle"
+    habilidades:
+      - label: Python
+        details: Scripts de automatización, Google Colab, análisis de datos con Pandas y Matplotlib, aplicaciones multiplataforma con Flet
+      - label: Java
+        details: Aplicaciones de escritorio con JavaFX, impresión ESC/POS, automatización de ofimática (Excel, PDF, Word)
+      - label: Bases de Datos
+        details: Diseño ERD, SQL intermedio (PostgreSQL, SQLite, MySQL)
+      - label: Frontend
+        details: Landing pages, sitios blog, Astro, Bootstrap, TailwindCSS, Angular, NextJS, ReactJS, Figma, diseño de sistemas y tokens de diseño.
+      - label: Backend
+        details: Spring Boot, Django, Express, Flask, PHP, NodeJS (monolítico y microservicios)
+      - label: DevOps & Cloud
+        details: Git, GitFlow, Azure, AWS
+      - label: SEO & Analytics
+        details: Optimización de sitios, Google Console, Google Analytics
+      - label: Gestión de Proyectos
+        details: Jira, ClickUp, GitHub, Scrum, Waterfall
+      - label: Automatización & IA
+        details: Make (workflows), AppsScript, Claude, Google AI Studio, prototipado rápido, agentes, MCP, video e imágenes.
+      - label: Documentación
+        details: Requisitos de software, manuales de usuario, documentación técnica
+    idiomas:
+      - label: Español
+        details: Nativo
+      - label: Inglés
+        details: Intermedio
+design:
+  theme: sb2nov
+  colors:
+    name: rgb(40 101 161)
+    section_titles: rgb(40 101 161)
+    links: rgb(152 181 216)
+  typography:
+    font_family: Charter #Roboto
+locale:
+  language: spanish
