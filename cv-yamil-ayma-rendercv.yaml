@@ -11,7 +11,7 @@ cv:
       username: yamilayma
   sections:
     resumen:
-      - Soy desarrollador de software especializado en la creación de soluciones a medida y automatización de procesos para PyMEs porque sé que el software simplifica lo complejo y acelera la entrega. Me encanta participar en proyectos, afrontar desafíos y promover un trabajo colaborativo creando herramientas como flujos de trabajo para mejorar los procesos existentes. En otros ámbitos, gestiono una comunidad de desarrolladores y realizo proyectos que buscan dar impacto o apoyo. 
+      - Soy desarrollador de software especializado en la creación de soluciones tecnológicas y automatización de procesos para PyMEs que simplifican lo complejo y aceleran la entrega. Me gusta participar en proyectos, afrontar desafíos y promover un trabajo colaborativo creando herramientas como flujos de trabajo para mejorar los procesos existentes. En otros ámbitos, llevo manteniendo algunos proyectos open source y colaborando en otros proyectos que buscan generar impacto o apoyo.
     educación:
       - institution: SENATI
         area: Ingeniería de Software con IA
@@ -35,6 +35,16 @@ cv:
           - Desarrollo de páginas web
           - Desarrollo de aplicaciones internas de empresa
     proyectos:
+      - name: "AI Cheatsheets"
+        date: "2026"
+        highlights:
+          - Sitio web de documentación de guías rápidas sobre tecnología, desarrollo, IA y demás.
+          - En constante actualización.
+      - name: "NotebookLM Prompt Styles"
+        date: "2026"
+        highlights:
+          - +100 estilos para personalizar presentaciones genéricas de NotebookLM.
+          - Sitio web de presentación para búsqueda visual.
       - name: "Comunidad de Desarrolladores | Una Comunidad de Python"
         date: "presente"
         highlights:
@@ -42,15 +52,16 @@ cv:
       - name: "Automatización de Redes Sociales"
         date: "2025"
         highlights:
-          - Creación de flujos de trabajo para la generación y programación de contenido automatizado.
+          - Creación de flujos de trabajo para la generación y programación de contenido automatizado en múltiples plataformas como Reddit, LinkedIn, Pinterest y canales RSS.
       - name: "Sitio Web Personal"
         date: "2025"
         highlights:
-          - Desarrollo de portafolio y blog personal para documentar proyectos y tutoriales técnicos.
+          - Desarrollo de portafolio y blog personal para documentar proyectos y tutoriales técnicos. En continuo desarrollo, con carácteristicas para potenciar el posicionamiento, carga y personalización.
       - name: "Canal de YouTube - ShuperPython"
         date: "2024"
         highlights:
-          - Creación de contenido educativo sobre Python, automatización y desarrollo de software.
+          - Creación de contenido educativo sobre Python y desarrollo de software en lote. (Descontinuado)
+          - Diseño de infografías y artículos visuales con altas visitas en Pinterest. (Descontinuado)
     certificaciones:
       - bullet: "AWS Academy Graduate - Cloud Operations - Amazon Web Services (AWS)"
       - bullet: "AWS Academy Graduate - Cloud Foundations - Amazon Web Services (AWS)"
@@ -60,23 +71,23 @@ cv:
       - bullet: "Artificial Intelligence with Machine Learning - Oracle"
     habilidades:
       - label: Python
-        details: Scripts de automatización, Google Colab, análisis de datos con Pandas y Matplotlib, aplicaciones multiplataforma con Flet
+        details: Scripts de automatización, Google Colab, manipulación de imágenes, documentos y archivos en lote, aplicaciones multiplataforma con Flet experimentales
       - label: Java
-        details: Aplicaciones de escritorio con JavaFX, impresión ESC/POS, automatización de ofimática (Excel, PDF, Word)
+        details: Aplicaciones de escritorio con JavaFX, impresión ESC/POS, automatización de ofimática (Excel, PDF, Word).
       - label: Bases de Datos
-        details: Diseño ERD, SQL intermedio (PostgreSQL, SQLite, MySQL)
+        details: Diseño ERD, SQL intermedio (PostgreSQL, SQLite, MySQL), Google Sheets.
       - label: Frontend
-        details: Landing pages, sitios blog, Astro, Bootstrap, TailwindCSS, Angular, NextJS, ReactJS, Figma, diseño de sistemas y tokens de diseño.
+        details: Landing pages, sitios blog, Astro, TailwindCSS, NextJS, ReactJS, Figma, diseño de sistemas y tokens de diseño. Acelerados con IA.
       - label: Backend
-        details: Spring Boot, Django, Express, Flask, PHP, NodeJS (monolítico y microservicios)
+        details: Spring Boot, ExpressJS, Flask, PHP, NodeJS (monolítico y microservicios)
       - label: DevOps & Cloud
-        details: Git, GitFlow, Azure, AWS
+        details: Git, GitFlow, Azure, AWS, Docker (básico). Automatización CI/CD con GitHub Actions.
       - label: SEO & Analytics
-        details: Optimización de sitios, Google Console, Google Analytics
+        details: Optimización de sitios, Google Search Console, Google Analytics.
       - label: Gestión de Proyectos
-        details: Jira, ClickUp, GitHub, Scrum, Waterfall
+        details: ClickUp, GitHub, Scrum.
       - label: Automatización & IA
-        details: Make (workflows), AppsScript, Claude, Google AI Studio, prototipado rápido, agentes, MCP, video e imágenes.
+        details: Make (workflows), Google AppsScript, Claude, Google AI Studio, MCP, videos e imágenes, asimismo de experiencia con IA Generativa.
       - label: Documentación
         details: Requisitos de software, manuales de usuario, documentación técnica
     idiomas:
